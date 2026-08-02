@@ -1,0 +1,33 @@
+# User1st
+
+> User1st is a web and mobile digital accessibility company. Its U1 Suite helps organizations reach and maintain WCAG, ADA, and European Accessibility Act (EAA) compliance across web frameworks (JavaScript/TypeScript, React, Angular, Vue, WordPress, Shopify) and mobile platforms (iOS Native, Android Native, React Native, Flutter). Backed by 500 Global.
+
+## About
+
+- [User1st homepage](https://user1st.com): Web and mobile accessibility solutions for WCAG, ADA, and EAA compliance
+- [About User1st](https://user1st.com/about-us): Company overview
+- [Our team](https://user1st.com/our-team): Leadership and team
+- [Compliance](https://user1st.com/compliance): Accessibility compliance approach (WCAG / ADA / EAA)
+
+## Products
+
+- [Web platforms](https://user1st.com/web-platforms): Accessibility toolkits for JavaScript/TypeScript, React, Angular, Vue, WordPress, Shopify
+- [Mobile platforms](https://user1st.com/mobile-platforms): Accessibility for iOS Native, Android Native, React Native, Flutter
+- [Pricing](https://user1st.com/pricing): Plans and packaging
+- [Accessibility checker demo](https://accessibility-checker.demo.user1st.com/main.html): Free accessibility scanning tool
+
+## Docs
+
+- [FAQ](https://user1st.com/faq): Frequently asked questions
+- [Whitepapers](https://user1st.com/whitepapers): Web and mobile accessibility solution whitepapers
+- [Privacy policy](https://user1st.com/privacy-policy): Privacy policy
+- [Sign in](https://user1st.com/sign-in): Customer platform login
+
+## Blog
+
+- [User1st blog](https://blog.user1st.com): Accessibility articles and updates
+- [Blog RSS](https://blog.user1st.com/feed): RSS feed
+
+## Notes
+
+- No public developer API, OpenAPI/Swagger specification, or client SDK packages (npm/PyPI) are published. The application backend at https://prod-backend.user1st.com/api/v1 is an internal, authenticated SaaS API and is not documented for third-party developer use.

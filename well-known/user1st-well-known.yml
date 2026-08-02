@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of /.well-known/* on user1st.com hosts
+host: https://user1st.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  No /.well-known discovery documents are published on user1st.com or
+  prod-backend.user1st.com. The product backend (prod-backend.user1st.com/api/v1)
+  is an internal SaaS API behind authentication; no public developer API,
+  OpenAPI/Swagger spec, or well-known surface is exposed. Absence recorded as
+  valid negative result.

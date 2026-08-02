@@ -1,0 +1,25 @@
+{
+  "repo": "user1st",
+  "feeds": [
+    {
+      "source": "https://blog.user1st.com/feed/",
+      "feed_url": "https://blog.user1st.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://user1st.com/faq",
+      "error": "HTTPError"
+    },
+    {
+      "source": "https://blog.user1st.com",
+      "feed_url": "https://blog.user1st.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-08-01T15:49:00Z"
+}

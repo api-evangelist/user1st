@@ -1,7 +1,16 @@
 aid: user1st
 name: User1st
-description: User1st is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  User1st is a web and mobile digital accessibility company whose U1 Suite gives
+  organizations an efficient path to WCAG, ADA, and European Accessibility Act
+  (EAA) compliance. It provides accessibility toolkits and remediation across web
+  frameworks (JavaScript/TypeScript, React, Angular, Vue, WordPress, Shopify) and
+  mobile platforms (iOS Native, Android Native, React Native, Flutter), plus a
+  free accessibility scanner and GenAI-assisted code-fixing and image-description
+  tooling. Trusted by organizations including Amtrak, Fannie Mae, IKEA, iRobot,
+  T-Mobile, Santander, Mount Sinai, and the City of New York. Backed by 500
+  Global. This profile was enriched by the API Evangelist pipeline; the product
+  backend is an internal SaaS API with no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/user1st/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://user1st.com/u1.png
 tags:
 - Company
+- Accessibility
+- Digital Accessibility
+- WCAG
+- ADA
+- EAA Compliance
+- Web Accessibility
+- Mobile Accessibility
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,28 @@ maintainers:
 common:
 - type: Website
   url: https://user1st.com
+- type: Pricing
+  url: https://user1st.com/pricing
+- type: SignUp
+  url: https://user1st.com/sign-in
+- type: Login
+  url: https://user1st.com/sign-in
+- type: PrivacyPolicy
+  url: https://user1st.com/privacy-policy
+- type: Support
+  url: https://user1st.com/faq
+- type: Blog
+  url: https://blog.user1st.com
+- type: BlogRSS
+  url: https://blog.user1st.com/feed
+- type: WellKnown
+  url: well-known/user1st-well-known.yml
+- type: DomainSecurity
+  url: security/user1st-domain-security.yml
+- type: LLMsTxt
+  url: llms/user1st-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
